@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocas - Rotation</title>
+    <meta name="description" content="Na Rotation, somos apaixonados por sneakers. Oferecemos um espaço para troca de sneakers raros.">
+    <link rel="stylesheet" href="/Css/paginas.css">
+</head>
+<body>
+
+<div id="nav">
+    <img class="logo" src="/Galery/BannerRotation.png" alt="logo rotation">
+
+    <a href="/home.html">Home</a>
+    <a href="/shop.html">Shop</a>
+    <a href="/social.html">Social</a>
+    <a href="/perfil.html">Perfil</a>
+    <input type="text" id="txtBusca" placeholder="Buscar"/>
+</div>
+
+<section id="cabecalho">
+    <h1>Troque seus boots com a galera</h1>
+    <p>Melhore sua rotação de tênis diário com a seção rotation</p>
+</section>
+
+<main class="conteudo">
+    <article id="informacoes-troca" class="cartao-troca">
+        <h2>Como Funciona</h2>
+        <p>1. Preencha o Formulário.</p>
+        <p>2. Aguarde a aprovação da troca por um moderador.</p>
+        <p>3. Aguarde alguém dar "match" na sua troca.</p>
+        <p>4. Envie o sneakers para a nossa equipe avaliar e realizar a troca.</p>
+        <p>5. Aguarde o correio entregar o seu novo sneaker e avalie o site.</p>
+    </article>
+
+    <article id="formulario-troca" class="cartao-troca">
+        <h2>Formulário de Troca</h2>
+        <form action="#" method="post">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sneaker">Sneaker que você possuí:</label>
+            <input type="text" id="sneaker" name="sneaker" required>
+
+            <label for="troca">Sneaker que você está a procura:</label>
+            <input type="text" id="troca" name="troca" required>
+
+            <label for="mensagem">Insira detalhes de uso, concervação, conforto etc sobre o seu boot:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+            <button type="submit">Enviar Proposta de Troca</button>
+        </form>
+    </article>
+</main>
+
+<footer class="rodape">
+    <p class="rodape-texto">Encontrou algum problema? Entre em contato através do e-mail <a href="mailto:rotationsup@gmail.com.br">rotationsup@gmail.com.br</a></p>
+</footer>
+</body>
+</html>

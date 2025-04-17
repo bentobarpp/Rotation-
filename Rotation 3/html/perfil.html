@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações do Perfil - Rotation</title>
+    <meta name="description" content="Gerencie suas informações de perfil na Rotation.">
+    <link rel="stylesheet" href="/Css/perfil.css">
+</head>
+<body>
+
+<div id="nav">
+    <img class="logo" src="/Galery/BannerRotation.png" alt="logo rotation">
+    <a href="http://127.0.0.1:5500/html/home.html">Home</a>
+    <a href="http://127.0.0.1:5500/html/trocas.html">Trocas</a>
+    <a href="http://127.0.0.1:5500/html/shop.html">Shop</a>
+    <a href="http://127.0.0.1:5500/html/social.html">Social</a>
+    <a href="http://127.0.0.1:5500/html/perfil.html">Perfil</a>
+    <input type="text" id="txtBusca" placeholder="Buscar"/>
+</div>
+
+<section id="cabecalho">
+    <h1>Configurações do Perfil</h1>
+    <p>Atualize suas informações pessoais.</p>
+</section>
+
+<main class="conteudo">
+    <article id="formulario-perfil" class="cartao-missao">
+        <h2>Atualizar Informações</h2>
+        <form action="#" method="post">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Nova Senha:</label>
+            <input type="password" id="senha" name="senha">
+
+            <label for="confirma-senha">Confirme a Nova Senha:</label>
+            <input type="password" id="confirma-senha" name="confirma-senha">
+
+            <button type="submit">Salvar Alterações</button>
+        </form>
+    </article>
+
+    <article id="market" class="cartao-market">
+        <h2>Market</h2>
+        <ul>
+            <li>Acompanhe seu pedido. <button>Rastrear</button></li>
+            <li>Verifique seus anúncios. <button>Acompanhar</button></li>
+            <li>Avaliar vendedores/trocadores. <button>Feedback</button></li>
+        </ul>
+    </article>
+</main>
+
+<footer class="rodape">
+    <p class="rodape-texto">Encontrou algum problema? Entre em contato através do e-mail <a href="mailto:rotationsup@gmail.com.br">rotationsup@gmail.com.br</a></p>
+</footer>
+<script src="/Js/perfil.js"></script>
+</body>
+</html>
